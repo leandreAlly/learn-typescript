@@ -1,0 +1,22 @@
+typescript are created to address the shortcoming of javascript 
+
+Benefits of typescript
+- static typing 
+- code completion
+- refactoring 
+- shorthand notations
+
+drawback of typescript
+ - compilation 
+ - Discpiline in coding 
+ 
+Setup development environment 
+- Node we're using NPM(node package Manager)
+
+to check the version of typescript
+ - tsc -v
+how to generate the typescript configuration
+ - tsc --init (write this in terminal)
+
+ to target the new javascript ecmascript you can delete 
+ the one availabe and press Ctrl + space to list all options
