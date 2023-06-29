@@ -20,3 +20,7 @@ how to generate the typescript configuration
 
  to target the new javascript ecmascript you can delete 
  the one availabe and press Ctrl + space to list all options
+
+- Its better to declare an array types before start using it.
+- tupple types can help in case we want represent an array of different types of element 
+- tupple are useful when we have only two values like key/value pairs

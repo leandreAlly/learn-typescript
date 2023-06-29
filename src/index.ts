@@ -1,4 +1,6 @@
-// Array
-const numbers: number[] = [1, 2, 4];
+// tupples
 
-numbers[3] = 1;
+// 1, 'ally'
+
+const user: [number, string] = [1, "ally"];
+user[1].
