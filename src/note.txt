@@ -24,3 +24,5 @@ how to generate the typescript configuration
 - Its better to declare an array types before start using it.
 - tupple types can help in case we want represent an array of different types of element 
 - tupple are useful when we have only two values like key/value pairs
+- using an enum we can create a group of related constants
+- If we define out enum using constant keyword the compiler will generate optimized javascript code

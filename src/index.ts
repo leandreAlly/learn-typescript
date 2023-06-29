@@ -1,6 +1,15 @@
-// tupples
+// const small = 1
+// const medium = 2
+// const large = 3
 
-// 1, 'ally'
+// PascalCase
 
-const user: [number, string] = [1, "ally"];
-user[1].
+const enum Size {
+  Small = 1,
+  Medium,
+  Large,
+}
+
+let mySize: Size = Size.Medium;
+
+console.log(mySize);
