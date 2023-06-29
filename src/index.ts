@@ -1,6 +1,13 @@
-function calculateTax(income: number, taxYear = 2022): number {
-  if (taxYear < 2022) return income * 1.2;
-  return income * 1.3;
-}
+const employee: {
+  readonly id: number;
+  name: string;
+  retire: (date: Date) => void;
+} = {
+  id: 1,
+  name: "Ally",
+  retire: (date: Date) => {
+    console.log(date);
+  },
+};
 
-calculateTax(50_000, 2023);
+// ReadOnly makes the id not being mutable
