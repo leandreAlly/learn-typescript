@@ -1,8 +1,4 @@
-let sales = 123_456_789;
-const course = "typescript";
-const is_published = true;
-const level;
+// Array
+const numbers: number[] = [1, 2, 4];
 
-function render(documents: any) {
-  console.log(documents);
-}
+numbers[3] = 1;
