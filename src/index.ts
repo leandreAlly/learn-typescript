@@ -1,7 +1,13 @@
-console.log("Hello world");
+const employee: {
+  readonly id: number;
+  name: string;
+  retire: (date: Date) => void;
+} = {
+  id: 1,
+  name: "Ally",
+  retire: (date: Date) => {
+    console.log(date);
+  },
+};
 
-let age: number = 20;
-
-if (age < 50) age += 10;
-
-console.log(age);
+// ReadOnly makes the id not being mutable
