@@ -26,3 +26,8 @@ how to generate the typescript configuration
 - tupple are useful when we have only two values like key/value pairs
 - using an enum we can create a group of related constants
 - If we define out enum using constant keyword the compiler will generate optimized javascript code
+- As best practise always anotates your functions, parameters
+- always enables this three compiler options 
+   * noUsedLocals
+   * noUsedParameters
+   * noImplicitReturns 
