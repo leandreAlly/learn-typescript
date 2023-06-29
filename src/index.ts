@@ -1,7 +1,8 @@
-console.log("Hello world");
+let sales = 123_456_789;
+const course = "typescript";
+const is_published = true;
+const level;
 
-let age: number = 20;
-
-if (age < 50) age += 10;
-
-console.log(age);
+function render(documents: any) {
+  console.log(documents);
+}
