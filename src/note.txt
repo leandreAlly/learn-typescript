@@ -31,3 +31,8 @@ how to generate the typescript configuration
    * noUsedLocals
    * noUsedParameters
    * noImplicitReturns 
+- when can use union to expose more than one type for single element
+- Nullish coalescing operator(??) this means that 
+   the value can be null or defined otherwise use that value 
+   ex: speed: speed ?? 30
+- 
