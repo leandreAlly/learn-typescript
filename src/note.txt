@@ -31,3 +31,4 @@ how to generate the typescript configuration
    * noUsedLocals
    * noUsedParameters
    * noImplicitReturns 
+- when can use union to expose more than one type for single element
