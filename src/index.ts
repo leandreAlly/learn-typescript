@@ -1,15 +1,6 @@
-type Employee = {
-  readonly id: number;
-  name: string;
-  retire: (date: Date) => void;
-};
+// Union types
 
-const employee: Employee = {
-  id: 1,
-  name: "Ally",
-  retire: (date: Date) => {
-    console.log(date);
-  },
-};
-
-// ReadOnly makes the id not being mutable
+function kgToLbs(weight: number | string): number {
+  if (typeof weight === "number") return weight * 2.2;
+  else return parseInt(weight) * 2.2;
+}
