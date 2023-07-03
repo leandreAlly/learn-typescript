@@ -1,16 +1,7 @@
-// Intersection type
+// Literal types
 
-type Draggable = {
-  drag: () => void;
-};
+type Quantity = 50 | 100;
 
-type Resizable = {
-  resize: () => void;
-};
+const quantity: Quantity = 100;
 
-type UIWidget = Draggable & Resizable;
-
-let textBox: UIWidget = {
-  drag: () => {},
-  resize: () => {},
-};
+type Metric = "inch" | "cm";
