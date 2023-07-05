@@ -2,7 +2,7 @@ class Person {
   constructor(public firstName: string, public lastName: string) {}
 
   get fullName() {
-    return this.firstName + "" + this.lastName;
+    return this.firstName + " " + this.lastName;
   }
 
   walk() {
@@ -20,7 +20,12 @@ class Students extends Person {
   }
 }
 
-let student = new Students(1, "john", "doe");
+class Teacher extends Person {
+  override get fullName() {
+    return "Professor: " + super.fullName;
+  }
+}
 
-student.takeText();
-student.walk();
+let teacher = new Teacher("ally", "leandre");
+
+console.log(teacher.fullName);
