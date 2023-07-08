@@ -2,6 +2,6 @@ export class Circle2 {
   constructor(public radius: number) {}
 }
 
-class Square {
+export class Square {
   constructor(public width: number) {}
 }

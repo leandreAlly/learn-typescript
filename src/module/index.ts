@@ -1,5 +1,3 @@
-import { Circle2 } from "./shapes";
+import * as shapes from "./shapes";
 
-let circle = new Circle2(2);
-
-console.log(circle.radius);
+let circle = new shapes.Square(1);
