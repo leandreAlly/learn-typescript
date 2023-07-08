@@ -35,4 +35,5 @@ how to generate the typescript configuration
 - Nullish coalescing operator(??) this means that 
    the value can be null or defined otherwise use that value 
    ex: speed: speed ?? 30
-- 
+- To include any javascript file we can use typed/definitely 
+- you can install any library by @types/lodash(example) as dev dependency
